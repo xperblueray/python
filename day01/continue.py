@@ -1,5 +1,6 @@
-#!/usr/bin/python
+#!/usr/bin/bash
 # Filename: continue.py
+
 
 while True:
     s = raw_input('Enter something : ')
@@ -8,3 +9,4 @@ while True:
     if len(s) < 3:
         continue
     print 'Input is of sufficient length'
+
